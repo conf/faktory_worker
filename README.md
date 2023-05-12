@@ -10,7 +10,7 @@ It could work on earlier versions, but untested.
 
 Formal instructions are coming soon. In the meantime, use Composer to install the package:
 ```
-composer require conf/faktory_worker
+composer require jcs224/faktory_worker_php5
 ```
 
 ## Pushing jobs

@@ -1,5 +1,5 @@
 {
-    "name": "conf/faktory_worker",
+    "name": "jcs224/faktory_worker_php5",
     "description": "Faktory job queue library for PHP. Compatible with PHP 7.3",
     "license": "MIT",
     "type": "library",
