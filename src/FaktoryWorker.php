@@ -8,8 +8,8 @@ class FaktoryWorker {
     private $jobTypes = [];
     private $stop = false;
     private $id = null;
-    
-    public function __construct($client, $processId = null) {
+
+    public function __construct(FaktoryClient $client, $processId = null) {
         $this->client = $client;
         $this->queues = array('default');
         $this->id = $processId ?: substr(sha1(rand()), 0, 8);
